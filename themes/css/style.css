@@ -1,0 +1,125 @@
+body {
+  background-color: #f9f9f9;
+  --maincolor: #ff6f38;
+  font-family: 'Anek Latin', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  min-height: 6000px;
+}
+
+.container {
+  width: 960px !important;
+}
+
+/* START NAVBAR */
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+  transition: all 0.1s ease-in-out;
+  border-bottom: 1px solid transparent;
+  font-size: 15px;
+}
+
+.navbar-light .navbar-nav .nav-item:hover .nav-link {
+  color: var(--maincolor);
+  border-bottom: 1px solid var(--maincolor);
+}
+
+.navbar .navbar-collapse {
+  justify-content: space-between !important;
+}
+
+.navbar .search_form {
+  position: relative;
+}
+
+.navbar .search_form input {
+  width: 501px;
+  outline: none;
+  box-shadow: none;
+  background: #f9f9f9;
+  position: relative;
+  padding-left: 40px;
+}
+
+.navbar .search_form input::placeholder {
+  font-size: 14px;
+}
+
+.navbar .search_form i.fa-search {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 22px;
+  color: #4e4e4e;
+}
+
+.main_navbar {
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+/*START TOP NAVBAR*/
+
+.top_navbar {}
+
+.top_navbar .data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top_navbar .data .box1 {
+  margin-top: 5px;
+}
+
+.top_navbar .data .box1 a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #414040;
+}
+
+.top_navbar .data .box2 {}
+
+.top_navbar .data .box2 button {
+  background-color: var(--maincolor);
+
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  padding: 7px 10px;
+}
+
+.list-group-flush>.list-group-item p {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.carousel-indicators {
+
+  background: #7f7f7f;
+  width: 84px;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+/*END TOP NAVBAR*/
+/* END NAVBAR */
+
+/* START BANNER 1*/
+.banner1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.banner1 .data {}
+
+.banner1 .data img {
+  max-width: 100%;
+}
+
+/* END BANNER 1*/
