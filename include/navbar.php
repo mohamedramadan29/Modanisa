@@ -5,8 +5,10 @@
                 <a href="#"> Help & Support </a>
             </div>
             <div class="box2">
-                <button> <i class=" fa fa-user-circle" aria-hidden="true"></i> Login or Sign Up
-                </button>
+                <a href="login.php">
+                    <button> <i class=" fa fa-user-circle" aria-hidden="true"></i> Login or Sign Up
+                    </button>
+                </a>
             </div>
         </div>
     </div>
@@ -32,19 +34,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Favorit <i class="fa fa-heart"></i></a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Basket <i class=" fa fa-shopping-bag" aria-hidden="true"></i>
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.php">Basket <i class="fa fa-shopping-bag"></i></a>
                     </li>
 
                 </ul>
