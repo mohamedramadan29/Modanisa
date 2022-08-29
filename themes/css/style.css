@@ -3,7 +3,7 @@ body {
   --maincolor: #ff6f38;
   font-family: 'Anek Latin', sans-serif;
   font-family: 'Roboto', sans-serif;
-  min-height: 6000px;
+
 }
 
 .container {
@@ -107,6 +107,17 @@ body {
   margin-bottom: 10px;
 }
 
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: .5rem 1rem;
+  color: #666667;
+  text-decoration: none;
+  background-color: #fff;
+  font-size: 15px;
+  border: none;
+}
+
 /*END TOP NAVBAR*/
 /* END NAVBAR */
 
@@ -119,7 +130,155 @@ body {
 .banner1 .data {}
 
 .banner1 .data img {
-  max-width: 100%;
+  width: 100%;
+}
+
+.banner1 .data img.banner2 {
+  min-height: 260px;
 }
 
 /* END BANNER 1*/
+/*START SERVICES*/
+.services {}
+
+.services .data {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.services .data .info {
+
+  border-right: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.services .data .last_info {
+  border: none;
+}
+
+.services .data .info img {
+  display: inline-block;
+}
+
+.services .data .info h4 {
+  display: inline-block;
+  font-size: 14px;
+
+  padding: 5px;
+}
+
+.services .data h4 a {
+  text-decoration: none;
+  color: #111;
+}
+
+.services .data h4:hover a {
+  color: var(--maincolor);
+}
+
+/*END SERVICES*/
+/* START POPUALR CATEGROY */
+.popular_category {}
+
+.popular_category h2 {
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.popular_category .data {}
+
+.popular_category .data .info {}
+
+.popular_category .data .info h4 {
+  font-size: 14px;
+
+  background-color: #fff;
+  padding: 13px 6px;
+  text-align: center;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.popular_category .data .info h4:hover {
+  background-color: var(--maincolor);
+  border-color: var(--maincolor);
+}
+
+.popular_category .data .info h4 a {
+  text-decoration: none;
+  color: #111;
+  transition: all 0.3s ease-in-out;
+}
+
+.popular_category .data .info h4:hover a {
+  color: #fff;
+
+}
+
+/* END POPULAR CATEGORY*/
+
+/* START FOOTER */
+
+.footer {
+  margin-top: 40px;
+  background-color: #fff;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.footer .data {}
+
+.footer .data h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer .data ul {}
+
+.footer .data .social_media {}
+
+.footer .data .social_media li {
+  display: inline-block;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.footer .data ul li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer .data ul li a {
+  text-decoration: none;
+  color: #747474;
+  font-size: 14px;
+
+}
+
+.footer .data ul li:hover a {
+  color: #111;
+}
+
+.footer .copy {
+  text-align: center;
+}
+
+.footer .copy img {
+  max-width: 100%;
+  margin-top: 30px;
+}
+
+.footer .copy p {
+  font-size: 15px;
+  margin-top: 20px;
+  color: #4f4f4f;
+}
+
+/*END FOOTER*/

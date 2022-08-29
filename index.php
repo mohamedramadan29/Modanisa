@@ -44,17 +44,191 @@ include 'init.php';
 <div class="banner1">
     <div class="container">
         <div class="data">
-            <img src="uploads/en-mostwanted-Z3-20220825.png" alt="">
+            <a href="#">
+                <img src="uploads/en-mostwanted-Z3-20220825.png" alt="">
+            </a>
         </div>
     </div>
 </div>
 <!-- END BANNER 1 -->
 
+<!-- START SHOP SERVICES -->
+<div class="services">
+    <div class="container">
+        <div class="data">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="info">
+                        <img src="uploads/code1.png" alt="">
+                        <h4> Cash On Delivery </h4>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="info">
+                        <img src="uploads/cop2.webp" alt="">
+                        <h4> Easy To Return </h4>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="info">
+                        <img src="uploads/copy3.webp" alt="">
+                        <h4> Express Delivery </h4>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="info last_info">
+                        <img src="uploads/copy4.webp" alt="">
+                        <h4> Discover The Campaigns </h4>
+                    </div>
+                </div>
+            </div>
 
+        </div>
+    </div>
+</div>
+<!-- END SHOP SERVICES -->
+
+<!-- START BANNER 2 -->
+<div class="banner1">
+    <div class="container">
+        <div class="data">
+            <a href="#">
+                <img src="uploads/banner2.png" alt="">
+            </a>
+        </div>
+    </div>
+</div>
+<!-- END BANNER 2 -->
+
+<!-- START BANNER 3 -->
+<div class="banner1">
+    <div class="container">
+        <div class="data">
+            <a href="#">
+                <img src="uploads/banner3.png" alt="">
+            </a>
+        </div>
+    </div>
+</div>
+<!-- END BANNER 3 -->
+
+<!-- START BANNER 3 -->
+<div class="banner1">
+    <div class="container">
+        <div class="data">
+            <div class="row">
+                <div class="col-lg-8">
+                    <a href="#">
+                        <img src="uploads/banner4.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="#">
+                        <img class="banner2" src="uploads/banner6.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END BANNER 3 -->
+
+
+<!-- START BANNER 3 -->
+<div class="banner1">
+    <div class="container">
+        <div class="data">
+            <a href="#">
+                <img src="uploads/banner7.png" alt="">
+            </a>
+        </div>
+    </div>
+</div>
+<!-- END BANNER 3 -->
+
+<!-- START BANNER 3 -->
+<div class="banner1">
+    <div class="container">
+        <div class="data">
+            <div class="row">
+                <div class="col-lg-4">
+                    <a href="#">
+                        <img class="banner2" src="uploads/banner8.png" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-8">
+                    <a href="#">
+                        <img src="uploads/banner9.jpg" alt="">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END BANNER 3 -->
+
+<!-- START POPULAR CATEGROY  -->
+<div class="popular_category">
+    <div class="container">
+        <h2> Popular Category </h2>
+        <div class="data">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="info">
+                        <h4><a href="#"> Hijap clothing </a></h4>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="info">
+                        <h4> <a href="#"> Modest Dress </a> </h4>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="info">
+
+                        <h4> <a href="#"> Modest Evinign Dress </a> </h4>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="info last_info">
+
+                        <h4> <a href="#"> BackPacks </a> </h4>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="info">
+
+                        <h4> <a href="#"> Heeled Shoes </a> </h4>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="info">
+
+                        <h4> <a href="#"> Trench Coats </a> </h4>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="info">
+
+                        <h4> <a href="#"> Weeding Dress </a> </h4>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="info last_info">
+                        <h4> <a href="#"> Abaya </a> </h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- END POPULAR CATEGROY  -->
 
 
 <?php
-//include $tem . 'footer_section.php';
+include $tem . 'footer_section.php';
 include $tem . 'footer.php';
 
 

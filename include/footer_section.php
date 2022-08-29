@@ -1,34 +1,57 @@
 <div class="footer">
     <div class="container">
         <div class="row data">
-            <div class="col-lg-4 copy_right">
-                <h2><?php echo $lang["contact_us"] ?></h2>
+            <div class="col-lg-3 copy_right">
+                <h2> Modanisa </h2>
+
                 <ul class="list-unstyled">
-                    <li> Destination d.o.o. </li>
-                    <li> Dr Mustafe Pintola 23 </li>
-                    <li> +387 62 22 33 11 </li>
-                    <li> +387 61 54 54 56 </li>
+                    <li> <a href="#"> About Us </a> </li>
+                    <li> <a href="#"> Contact Us </a> </li>
+                    <li> <a href="#"> Fashion week </a> </li>
+                    <li> <a href="#"> Career </a> </li>
                 </ul>
-                <p> <?php echo $lang["copy_right"] ?>| <a href="#"> <?php echo $lang["terms"] ?> </a> </p>
+
             </div>
-            <div class="col-lg-4 news_letter">
-                <h2> <?php echo $lang["newslatter"] ?> </h2>
-                <p> <?php echo $lang["subscribe_text"] ?>
-                </p>
-                <form action="#">
-                    <input type="email" placeholder="<?php echo $lang["your_email"] ?> "><input type="submit"
-                        value="<?php echo $lang["subscribe_button"] ?>">
-                </form>
-            </div>
-            <div class="col-lg-4 follow_us">
-                <h2><?php echo $lang["follow_us"] ?> </h2>
+            <div class="col-lg-3 news_letter">
+                <h2> Faq </h2>
                 <ul class="list-unstyled">
-                    <li> <i class="fa fa-facebook"></i> </li>
-                    <li> <i class="fa fa-instagram"></i> </li>
-                    <li> <i class="fa fa-twitter"></i> </li>
-                    <li> <i class="fa fa-snapchat"></i> </li>
+                    <li> <a href="#"> Order </a> </li>
+                    <li> <a href="#"> Split Order </a> </li>
+                    <li> <a href="#"> Popular Questions </a> </li>
+                    <li> <a href="#"> Payment Methods </a> </li>
                 </ul>
+
             </div>
+            <div class="col-lg-3 follow_us">
+                <h2> Brands </h2>
+
+                <ul class="list-unstyled">
+                    <li> <a href="#"> All Brands </a> </li>
+                    <li> <a href="#"> Tuva </a> </li>
+                    <li> <a href="#"> Alia </a> </li>
+                    <li> <a href="#"> Benin </a> </li>
+                </ul>
+
+            </div>
+            <div class="col-lg-3 follow_us">
+                <h2> Follow Us </h2>
+                <ul class="social_media list-unstyled">
+                    <li> <a href="#"> <img src="uploads/facebook.svg" alt=""> </a> </li>
+                    <li> <a href="#"> <img src="uploads/instagram.svg" alt=""> </a> </li>
+                    <li> <a href="#"> <img src="uploads/twitter.svg" alt=""> </a> </li>
+                    <li> <a href="#"> <img src="uploads/pinterest-light.svg" alt=""> </a> </li>
+                    <li> <a href="#"> <img src="uploads/youtube-play.svg" alt=""> </a> </li>
+
+                </ul>
+
+            </div>
+            <!-- START COPY FOOTER -->
+
+            <div class="copy">
+                <img src="uploads/logo.webp" alt="">
+                <p> © 2022 Modanisa. All Rights Reserved. </p>
+            </div>
+            <!-- END COPY FOOTER -->
         </div>
     </div>
 </div>

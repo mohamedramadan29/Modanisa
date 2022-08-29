@@ -5,7 +5,10 @@
     <title> Modanisa </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+        content="Modest dresses, hijab dresses are now at Modanisa online shop at the best prices! Click for modest dress models.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="uploads/banner2.png">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@400;500;600&family=Roboto&display=swap"
         rel="stylesheet">
