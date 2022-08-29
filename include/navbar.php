@@ -16,7 +16,7 @@
 <div class="main_navbar">
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="uploads/logo.webp" alt=""></a>
+            <a class="navbar-brand" href="index.php"><img src="uploads/logo.webp" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -144,7 +144,7 @@
                 </li>
                 -->
                     <li class="nav-item dropdown position-static">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="shop.php" id="navbarDropdown" role="button"
                             data-mdb-toggle="dropdown" aria-expanded="false">
                             New
                         </a>
@@ -170,7 +170,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown position-static">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="shop.php" id="navbarDropdown" role="button"
                             data-mdb-toggle="dropdown" aria-expanded="false">
                             Hijab
                         </a>
@@ -198,7 +198,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown position-static">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="shop.php" id="navbarDropdown" role="button"
                             data-mdb-toggle="dropdown" aria-expanded="false">
                             Clothing
                         </a>
@@ -226,7 +226,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown position-static">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="shop.php" id="navbarDropdown" role="button"
                             data-mdb-toggle="dropdown" aria-expanded="false">
                             OuterWear
                         </a>
@@ -254,7 +254,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown position-static">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="shop.php" id="navbarDropdown" role="button"
                             data-mdb-toggle="dropdown" aria-expanded="false">
                             Plus Size
                         </a>
@@ -282,7 +282,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown position-static">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="shop.php" id="navbarDropdown" role="button"
                             data-mdb-toggle="dropdown" aria-expanded="false">
                             Bages / Shoes
                         </a>
@@ -310,7 +310,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown position-static">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="shop.php" id="navbarDropdown" role="button"
                             data-mdb-toggle="dropdown" aria-expanded="false">
                             Home /Lifes
                         </a>
